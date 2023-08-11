@@ -1,9 +1,66 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "user": [
+    {
+      "id": 3061,
+      "nome": "Sabrina Anice De Freitas Andreozzi",
+      "email": "teste@optionsreport.com.br",
+      "roles": [
+        {
+          "value": "Colaborador",
+          "viewValue": "Colaborador"
+        }
+      ],
+      "companyCurrency": {
+        "currencyId": 0,
+        "name": null,
+        "code": "R$",
+        "acronym": "BRL",
+        "quote": null
+      },
+      "userCurrency": {
+        "currencyId": 0,
+        "name": null,
+        "code": null,
+        "acronym": "BRL",
+        "quote": null
+      },
+      "icpAccess": true,
+      "ilpAccess": false,
+      "profile": "Gerente Comercial",
+      "language": "pt-BR"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "api": {
+    "account": {
+      "getDynamicMenu": [
+        {
+          "titulo": "Home",
+          "id": "id_home",
+          "route": "icp/home",
+          "hasSubMenu": false,
+          "externalUrl": "",
+          "icon": "home_outline",
+          "submenus": []
+        },
+        {
+          "titulo": "Programas",
+          "id": "id_programas",
+          "route": "coming-soon",
+          "hasSubMenu": false,
+          "externalUrl": "",
+          "icon": "programs",
+          "submenus": []
+        },
+        {
+          "titulo": "Histórico",
+          "id": "id_histórico",
+          "route": "coming-soon",
+          "hasSubMenu": false,
+          "externalUrl": "",
+          "icon": "shares_price",
+          "submenus": []
+        }
+      ]
+    }
+  }
 }
